@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.big-card{
+border: 1px solid yellow;
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:1rem;
+
+}
+.small-card{
+    border: 1px solid purple;
+    width: 100%;
+    height: 10vh;
+}
+    
+
