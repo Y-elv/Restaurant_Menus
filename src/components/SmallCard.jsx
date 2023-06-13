@@ -4,7 +4,9 @@ const SmallCard =()=>{
     <>
     <div className="all">
         <div className="left"></div>
-        <div className="right"></div>
+        <div className="right">
+            
+        </div>
     </div>
     </>
     )
