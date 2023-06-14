@@ -1,5 +1,5 @@
 import '../CSs/smallcard.css';
-import star from '../assets/vector.png';
+import star from '../assets/vector.png'
 const SmallCard =({img,name})=>{
     return( 
     <>
