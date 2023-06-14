@@ -8,13 +8,13 @@
 
 .main{
   border: 1px solid rgb(9, 165, 192);
-  width: 100%;
+  width: 98%;
   height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 105px 5px 5px 5px ;
+  padding: 105px 0px 5px 5px ;
   margin-top: 15px;
   margin-bottom: 10px;
  
@@ -81,3 +81,18 @@
   justify-content: space-around;
 
 }
+.product-card{
+  
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 2rem;
+}
+.whole{
+
+  
+
+
+}
+

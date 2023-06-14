@@ -5,7 +5,7 @@
    
 }
 .container{
-    width: 100%;
+    width: 99%;
     height: 10vh;
     display: flex;
     gap: 2rem;
