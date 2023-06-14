@@ -1,4 +1,4 @@
-import '../Css/mainlayout.css'
+import '../CSs/mainlayout.css'
 import img1 from '../assets/menu-alt-left-regular-24.png'
 import img2 from '../assets/search-alt-2-regular-24.png'
 const MainLayout =()=>{
