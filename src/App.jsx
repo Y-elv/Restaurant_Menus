@@ -2,7 +2,6 @@
 
 import './App.css'
 import MainLayout from './Layout/MainLayout'
-import BigCard from './components/bigCard'
 import SmallCard from './components/SmallCard'
 
 
@@ -35,24 +34,54 @@ function App() {
           </div>
 
         </div>
-        <div className="product-card">
-         <BigCard
-         name="Soupus"
-         
-         />
-            <BigCard
-         name="Desserts"
-         />
-             <BigCard
-         name="Appertizers"
-         />
-            <BigCard
-         name="Drinks"
-         />
-         
-         
-         
+        <div className="whole">
+          <div className="product-card">
+
+            <div className="soupus">
+              <div className="header"><h3>soupus</h3></div>
+              <SmallCard
+                img="left"
+                name="Pilates Class Pass"
+
+              />
+              <SmallCard
+                img="left"
+                name="Pilates Class Pass"
+
+              />
+            </div>
+            <div className="desserts">
+              <div className="header"><h3>desserts</h3></div>
+              <SmallCard
+                img="left"
+                name="Pilates Class Pass"
+
+              />
+            </div>
+            <div className="appertizers">
+              <div className="header"><h3>appertizers</h3></div>
+              <SmallCard
+                img="left"
+                name="Pilates Class Pass"
+
+              />
+            </div>
+            <div className="drink">
+              <div className="header"><h3>drink</h3></div>
+              <SmallCard
+                img="left"
+                name="Pilates Class Pass"
+
+              />
+            </div>
+
+
+
+
+
+          </div>
         </div>
+
 
       </div>
     </>

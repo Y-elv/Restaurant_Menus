@@ -21,6 +21,7 @@ const BigCard =({name})=>{
             />
            
         </div>
+     
         </div>
         </section>
     )
