@@ -10,8 +10,8 @@ function App() {
 
 
   return (
-    <>
-      <MainLayout />
+    <div>
+      <MainLayout/>
       <div className="main">
         <h3 id="title">Today's specials</h3>
         <div className="landingpage">
@@ -83,7 +83,8 @@ function App() {
         </div>
 
 
-    </>
+      </div>
+    </div>
   )
 }
 
