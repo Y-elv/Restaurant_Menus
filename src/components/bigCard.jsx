@@ -1,5 +1,5 @@
 import '../CSs/bigcard.css'
-import SmallCard from './SmallCard'
+import SmallCard from './SmallCard.jsx'
 const BigCard =({name})=>{
     return (
         <section>

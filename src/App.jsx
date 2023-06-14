@@ -1,8 +1,8 @@
 
 
 import './App.css'
-import MainLayout from './Layout/MainLayout'
-import SmallCard from './components/SmallCard'
+import MainLayout from './Layout/MainLayout.jsx'
+import SmallCard from './components/SmallCard.jsx'
 
 
 
