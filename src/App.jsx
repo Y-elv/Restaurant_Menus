@@ -36,7 +36,20 @@ function App() {
 
         </div>
         <div className="product-card">
-         <BigCard/>
+         <BigCard
+         name="Soupus"
+         
+         />
+            <BigCard
+         name="Desserts"
+         />
+             <BigCard
+         name="Appertizers"
+         />
+            <BigCard
+         name="Drinks"
+         />
+         
          
          
         </div>

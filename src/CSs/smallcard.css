@@ -1,22 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.all{
+
+.all {
     width: 100%;
     height: 10vh;
     display: flex;
-    
+    gap: 0.5rem;
     border: 1px solid palegreen;
 
 }
-.right{
+
+.right {
     border: 1px solid peru;
-width: 60%;
+    width: 60%;
 }
-.left{
+
+.left {
     background-image: url(https://s3-alpha-sig.figma.com/img/3855/25d4/d9eb3990e4e67e80a8de3574f761f145?Expires=1687737600&Signature=nrgXT7J4wzGYlNk~mVrs7X0N4ogr5yRGCS4am7-McUxVjmfWzoqbo6Qc0Ro3Soy0DBwbJYjD0FXKT~fZpZIdbkyhMRMjxfZ806wUoap4icQW0Eg5gQ8t2WNwNkQQecFMCLUSMcMFpRFExGCJnwdLXxGUFE6Tijjk950WyfYoYxPSB5jXUunvpbsxM2U~FSqsr6EtDg-L0nvVs3hHEnxwWPBlyTUbhOlpBTGvNK59~J60A3ChlvQ8YabM8O4lQNAsG9GuQ491MRrtb5p-xxEujPRDy9y2RgMkhGIcT4tmkQMqRxCCV7K0wKDx~PZID31O1FaTuIKVgqBoW6FSx5Y-Wg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
     border: 1px solid rgb(205, 63, 193);
     background-size: cover;
     width: 40%;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.left1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/43e3/1c96/43a4c07194521fe6c206aa06c994a55f?Expires=1687737600&Signature=N4DcTxWbCRIQtKYtcuAPQJuJVzmJvmVqDY121~hQYyC8Coy6zZzP58vCEGk3Lo1qUigjPG-OcLue40wVCbKp~-JVulztw3med-3ms3P~DZHRmjW0JlqvNo0ta567D32bA3wK8DH0XueQpQW-OpalxfkVr63PgkhZ~xXbwPsJKRwH00NuM6L~p1HoURjS8OTpUYoZGEC4~I~zocruH1doMngDj91UHmfzeuFLnslGkG1s-nTZQPvjDSvoXvfHm6suFYzS8z~ALGqoTt-aXbLk5558Vhyp9U-aslA1R9y1UpZDMYQhE9pY~1ts2Q0AWa9UsenmyFu7HhZaUFXMC-X6TA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid rgb(205, 63, 193);
+    background-size: cover;
+    width: 40%;
+}
+
+.content {
+    width: 100%;
+    gap: 0.2rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-around;
+
+
+
+
+
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last #left{
+    background-color:rgba(0, 0, 0, 0.71);
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  border-radius: 0px 6px 0px 6px;
+    
 }
