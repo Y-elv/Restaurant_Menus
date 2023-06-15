@@ -45,15 +45,35 @@ function App() {
 
               />
               <SmallCard
-                img="left"
-                name="Pilates Class Pass"
+                img="left2"
+                name="Almond Croissants"
+
+              />
+              <SmallCard
+                img="left3"
+                name="Creamy Tuscan Chicken Pasta"
 
               />
             </div>
             <div className="desserts">
               <div className="header"><h3>desserts</h3></div>
               <SmallCard
-                img="left"
+                img="left4"
+                name="Pilates Class Pass"
+
+              />
+               <SmallCard
+                img="left5"
+                name="Pilates Class Pass"
+
+              />
+               <SmallCard
+                img="left4"
+                name="Pilates Class Pass"
+
+              />
+               <SmallCard
+                img="left6"
                 name="Pilates Class Pass"
 
               />
@@ -61,16 +81,57 @@ function App() {
             <div className="appertizers">
               <div className="header"><h3>appertizers</h3></div>
               <SmallCard
-                img="left"
+                img="left7"
                 name="Pilates Class Pass"
 
               />
+               <SmallCard
+                img="left8"
+                name="Pilates Class Pass"
+
+              />
+               <SmallCard
+                img="left9"
+                name="Pilates Class Pass"
+
+              />
+              
             </div>
             <div className="drink">
               <div className="header"><h3>drink</h3></div>
               <SmallCard
-                img="left"
-                name="Pilates Class Pass"
+                img="left10"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left11"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left12"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left13"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left14"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left15"
+                name="Soupus"
+
+              />
+                <SmallCard
+                img="left16"
+                name="Soupus"
 
               />
             </div>
