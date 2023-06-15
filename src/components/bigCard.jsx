@@ -1,5 +1,5 @@
 import '../CSs/bigcard.css'
-import SmallCard from './SmallCard.jsx'
+import smallCard from './SmallCard.jsx'
 const BigCard =({name})=>{
     return (
         <section>
@@ -8,15 +8,15 @@ const BigCard =({name})=>{
             <h1>{name}</h1>
         </div>
         <div className="small-card">
-            <SmallCard
+            <smallCard
             img="left"
             name="Pilates Class Pass"
             />
-            <SmallCard
+            <smallCard
             img="left1"
             name=""
             />
-            <SmallCard
+            <smallCard
             img="left"
             />
            
