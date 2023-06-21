@@ -3,12 +3,37 @@
 import './App.css'
 import MainLayout from './Layout/MainLayout.jsx'
 import SmallCard from './components/SmallCard.jsx'
+import React, { useRef } from 'react';
 
 
 
 function App() {
 
 
+
+    const soupusDivRef = useRef(null);
+  
+    const soupusClick = () => {
+      soupusDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const dessertstDivRef = useRef(null);
+  
+    const dessertsClick = () => {
+      dessertstDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const appertizersDivRef = useRef(null);
+  
+    const appertizersClick = () => {
+      appertizersDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const drinkDivRef = useRef(null);
+  
+    const drinkClick = () => {
+      drinkDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
   return (
     <div>
       <MainLayout/>
@@ -27,17 +52,17 @@ function App() {
             <h4>See all</h4>
           </div>
           <div className="lower">
-            <h4>Soupus</h4>
-            <h4>Desserts</h4>
-            <h4>Appertizers</h4>
-            <h4>Drink</h4>
+            <h4><button onClick={soupusClick}>Soupus</button></h4>
+            <h4> <button onClick={dessertsClick}>Desserts</button></h4>
+            <h4 ><button onClick={appertizersClick}>Appertizers</button></h4>
+            <h4><button onClick={ drinkClick}>Drink</button></h4>
           </div>
 
         </div>
         <div className="whole">
           <div className="product-card">
 
-            <div className="soupus">
+            <div className="soupus"ref={soupusDivRef}>
               <div className="header"><h3>soupus</h3></div>
               <SmallCard
                 img="left"
@@ -55,7 +80,7 @@ function App() {
 
               />
             </div>
-            <div className="desserts">
+            <div className="desserts"ref={dessertstDivRef}>
               <div className="header"><h3>desserts</h3></div>
               <SmallCard
                 img="left4"
@@ -78,7 +103,7 @@ function App() {
 
               />
             </div>
-            <div className="appertizers">
+            <div className="appertizers"ref={appertizersDivRef}>
               <div className="header"><h3>appertizers</h3></div>
               <SmallCard
                 img="left7"
@@ -97,7 +122,7 @@ function App() {
               />
               
             </div>
-            <div className="drink">
+            <div className="drink"ref={drinkDivRef}>
               <div className="header"><h3>drink</h3></div>
               <SmallCard
                 img="left10"
