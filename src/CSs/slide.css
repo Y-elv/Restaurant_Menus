@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+  
+   
+  
+  }
+.landingpage{
+    border: 1px solid black;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+   
+   
+    
+  }
+  .image{
+  
+    border: 1px solid red;
+    width: 80%;
+    height: 13vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/43e3/1c96/43a4c07194521fe6c206aa06c994a55f?Expires=1687737600&Signature=N4DcTxWbCRIQtKYtcuAPQJuJVzmJvmVqDY121~hQYyC8Coy6zZzP58vCEGk3Lo1qUigjPG-OcLue40wVCbKp~-JVulztw3med-3ms3P~DZHRmjW0JlqvNo0ta567D32bA3wK8DH0XueQpQW-OpalxfkVr63PgkhZ~xXbwPsJKRwH00NuM6L~p1HoURjS8OTpUYoZGEC4~I~zocruH1doMngDj91UHmfzeuFLnslGkG1s-nTZQPvjDSvoXvfHm6suFYzS8z~ALGqoTt-aXbLk5558Vhyp9U-aslA1R9y1UpZDMYQhE9pY~1ts2Q0AWa9UsenmyFu7HhZaUFXMC-X6TA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+   border-radius: 6px 6px ;
+   background-size: cover;
+  
+  
+  }
