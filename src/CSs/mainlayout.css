@@ -21,3 +21,11 @@
     
 
 }
+.search{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    padding: 5px 5px;
+}

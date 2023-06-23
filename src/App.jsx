@@ -41,7 +41,7 @@ function App() {
         <h3 id="title">Today's specials</h3>
         <div className="landingpage">
 
-          <div className="image"></div>
+         
         </div>
       </div>
 
