@@ -9,12 +9,13 @@
     height: 10vh;
     display: flex;
     gap: 2rem;
-    border: 1px solid red;
+   
     background-color: rgba(242, 201, 188, 1);
     justify-content: space-around;
     align-items: center;
     border-radius:0px 0px 10px 10px ;
-    position: fixed;
+    position:fixed;
+   
    
     
    

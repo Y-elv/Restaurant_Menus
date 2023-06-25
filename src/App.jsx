@@ -3,12 +3,11 @@
 import './App.css'
 import MainLayout from './Layout/MainLayout.jsx'
 import SmallCard from './components/SmallCard.jsx'
-import React, { useRef } from 'react';
+import React, { useRef ,useEffect} from 'react';
 
 
 
 function App() {
-
 
 
     const soupusDivRef = useRef(null);
@@ -35,16 +34,20 @@ function App() {
       drinkDivRef.current.scrollIntoView({ behavior: 'smooth' });
     };
   return (
-    <div>
-      <MainLayout/>
+    <>
+    <div className='above'>
+      <div className="mainlayout">
+      <MainLayout />
+      </div>
       <div className="main">
         <h3 id="title">Today's specials</h3>
         <div className="landingpage">
-
-         
+        <div className="image"></div>
+         <div className="image"></div>
+         <div className="image"></div>
         </div>
       </div>
-
+      </div>
       <div className="product-container">
         <div className="middle">
           <div className="upper">
@@ -170,7 +173,8 @@ function App() {
 
 
       </div>
-    </div>
+      </>
+    
   )
 }
 
